@@ -1,42 +1,57 @@
+/* Base Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif; /* Using a more modern font */
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    color: #333; /* Consistent text color */
 }
 
+/* Header */
 header {
-    background: #0077b5;
-    color: white;
-    padding: 20px 0;
+    background-color: #0077b5; /* Using background-color for clarity */
+    color: #fff; /* Using shorthand for white */
+    padding: 1rem 0; /* Using rems for better responsiveness */
     text-align: center;
 }
 
+/* Navigation */
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0; /* Resetting margin for better control */
+    display: flex; /* Using flexbox for better layout control */
+    justify-content: center; /* Centering navigation items horizontally */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0 1rem; /* Using rems for better responsiveness */
 }
 
 nav a {
-    color: #0077b5;
+    color: #fff; /* Consistent link color */
     text-decoration: none;
+    padding: 0.5rem 1rem; /* Adding padding for better clickability */
+    border-radius: 3px; /* Adding subtle border radius */
+    transition: background-color 0.3s ease; /* Adding smooth hover effect */
 }
 
+nav a:hover {
+    background-color: #006290; /* Changing background color on hover */
+}
+
+/* Main Content */
 main {
-    padding: 20px;
+    padding: 2rem;
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
+/* Footer */
 footer {
     text-align: center;
-    padding: 10px 0;
-    background: #f4f4f4;
+    padding: 1rem 0;
+    background-color: #f4f4f4;
 }
