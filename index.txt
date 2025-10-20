@@ -1,240 +1,116 @@
-vCard - Personal Portfolio
+# Mohammed Mohsin Uddin - Personal Portfolio
 
-# sidebar
+![Portfolio Banner](./assets/images/my-avatar.png)
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+A fully responsive **personal portfolio website** showcasing my skills, projects, education, and experience. Built using **HTML, CSS, and JavaScript**, this portfolio highlights my work as a **Data Engineer/Data Analyst** and developer.
 
-Show Contacts
+---
 
-Email
-richard@example.com
+## 🔗 Live Demo
+[![Portfolio Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=github)](https://mohsinnuddin.github.io/Portfolio/)
 
-Phone
-+1 (213) 352-2795
+---
 
-Birthday
-June 23, 1982
+## 🧑 About Me
+I am currently working as a **Data Engineer Intern**, focused on gaining practical experience in **data analytics and engineering**.  
+Motivated and proactive with expertise in **SQL, Java, Python, and C**, along with certifications in **Data Analytics using Microsoft Power BI** and **Java/C++ programming**.  
 
-Location
-Sacramento, California, USA
+---
 
-# navbar
+## 💼 Skills
 
-About
-Resume
-Portfolio
-Blog
-Contact
+### Programming Languages & Tools
+| Language / Tool      | Proficiency |
+|---------------------|------------|
+| SQL                 | 85%        |
+| Looker Studio       | 70%        |
+| Python              | 50%        |
+| Java                | 40%        |
+| Alteryx             | 60%        |
+| DBT                 | 50%        |
 
-# about
+### Technical Skills
+- **Data Engineering:** Building and managing scalable, efficient data pipelines.  
+- **Data Analytics:** Transforming complex data into actionable insights.  
+- **App Development:** Mobile and web applications with modern frameworks.  
+- **MS Office:** Reporting, automation, and productivity.
 
-About me
+---
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+## 🏫 Education
+- **CSI Wesley Institute of Technology and Sciences** (2020 — 2024)  
+  Courses: Data Structures, Algorithms, Database Management, Web Development, Software Engineering  
+  Projects: Gym Trainer App, Tourism Management System  
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+- **Sultan Ul Uloom Junior College** (2018 — 2020)  
+  Focus: Mathematics, Physical Sciences; Analytical skills development  
 
+- **ST. Joseph's High School** (2017 — 2018)  
+  Strong foundation in Mathematics, Science, and English  
 
-## service
+---
 
-What i'm doing
+## 🏆 Certifications
+- ![Certificate](https://img.shields.io/badge/Data-Analyst-Certification-yellow)  
+  [View Certificate](https://drive.google.com/file/d/1JCg0QlikmUsXv_STck8Ylo9VIq1chzwA/view?usp=drive_link)  
 
-alt = design icon
-Web design
-The most modern and high-quality design made at a professional level.
+- ![Certificate](https://img.shields.io/badge/Java-C++-Beginner-Certification-red)  
+  [View Certificate](https://drive.google.com/file/d/16uOo3EdHpglbMJV2RTKN_hhDA1bMk2g5/view?usp=drive_link)  
 
-alt = Web development icon
-Web development
-High-quality development of sites at the professional level.
+---
 
-alt = mobile app icon
-Mobile apps
-Professional development of applications for iOS and Android.
+## 💼 Experience
+**Data Engineer Intern** – Jan 2025 — Present  
+- Building and maintaining data pipelines using Python & SQL.  
+- Data cleaning, transformation, and integration tasks for analytics teams.  
+- Tools: **Alteryx, Power BI**, and cloud-based platforms.  
 
-alt = camera icon
-Photography
-I make high-quality photos of any category at a professional level.
+---
 
+## 📂 Projects
 
-## testimonials
+### Gym Trainer App
+**Role:** UI Developer  
+Android app developed in **Java** with **Firebase** integration for authentication and database.  
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge&logo=github)](https://github.com/Mohsinnuddin/Gym-Trainer-App)
 
-Testimonials
+### Tourism Management System
+**Role:** Developer  
+Manages customers, bookings, cancellations, and tourism info.  
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge&logo=github)](https://github.com/Mohsinnuddin/Tourism-Management-System)
 
-alt = Daniel lewis
-Daniel lewis
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+### Portfolio Projects
+- **Titanic Analysis** – Looker Studio dashboard  
+- **Sales Analysis** – Looker Studio interactive dashboard  
+- **Cohort Analysis** – Alteryx workflow for customer retention  
+- **Replicate Tables / Macro** – Alteryx workflows and macros  
 
-alt = Jessica miller
-Jessica miller
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+---
 
-alt = Emily evans
-Emily evans
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+## 📧 Contact
+- **Email:** mohsinnuddin@gmail.com  
+- **Location:** Telangana, India  
+- **LinkedIn:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mohammed-mohsin-uddin-7830a9315/)  
+- **GitHub:** [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://www.github.com/Mohsinnuddin)  
+- **Instagram:** [![Instagram](https://img.shields.io/badge/Instagram-Profile-purple?style=for-the-badge&logo=instagram)](https://www.instagram.com/mohsinnuddin_)  
 
-alt = Henry william
-Henry william
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+---
 
+## 🛠️ Built With
+- HTML5, CSS3, JavaScript  
+- Ionicons for icons  
+- Responsive design (desktop, tablet, mobile)  
 
-## clients
+---
 
-Clients
+## ⚡ Features
+- Responsive sidebar with contact info & social links  
+- Horizontal scroll for Programming Languages & Tools  
+- Portfolio section with project modals & GitHub links  
+- Skill progress bars  
+- Contact form via FormSubmit  
 
-alt = client logo
+---
 
-
-
-# resume
-
-Resume
-
-Education
-
-University school of the arts
-2007 — 2008
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
-
-New york academy of art
-2006 — 2007
-Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
-
-High school of art and design
-2002 — 2004
-Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
-
-Experience
-
-Creative director
-2015 — Present
-Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
-
-Art director
-2013 — 2015
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
-
-Web designer
-2010 — 2013
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
-
-My skills
-
-Web design
-80%
-Graphic design
-70%
-Branding
-90%
-WordPress
-50%
-
-
-
-# portfolio
-
-Portfolio
-
-All
-Web design
-Applications
-Web development
-
-Select category
-All
-Web design
-Applications
-Web development
-
-alt = finance
-Finance
-Web development
-
-alt = orizon
-Orizon
-Web development
-
-alt = fundo
-Fundo
-Web design
-
-alt = brawlhalla
-Brawlhalla
-Applications
-
-alt = dsm.
-DSM.
-Web design
-
-alt = metaspark
-MetaSpark
-Web design
-
-alt = summary
-Summary
-Web development
-
-alt = task manager
-Task Manager
-Applications
-
-alt = arrival
-Arrival
-Web development
-
-
-
-# blog
-
-Blog
-
-alt = Design conferences in 2022
-Design
-Fab 23, 2022
-Design conferences in 2022
-Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-
-alt = Best fonts every designer
-Design
-Fab 23, 2022
-Best fonts every designer
-Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-
-alt = Design digest #80
-Design
-Fab 23, 2022
-Design digest #80
-Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-
-alt = UI interactions of the week
-Design
-Fab 23, 2022
-UI interactions of the week
-Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-
-alt = The forgotten art of spacing
-Design
-Fab 23, 2022
-The Forgotten Art Of Spacing
-Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-alt = Design digest #79
-Design
-Fab 23, 2022
-Design Digest #79
-Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-
-
-
-# contact
-
-Contact
-
-Contact Form
-
-Full name
-Email address
-Your Message
-
-Send Message
+## 📌 License
+This project is **open-source** and available under the **MIT License**.
