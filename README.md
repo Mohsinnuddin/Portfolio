@@ -51,15 +51,18 @@ Motivated and proactive with expertise in **SQL, Java, Python, and C**, along wi
 ---
 
 ## 🏆 Certifications
-- ![Certificate](https://img.shields.io/badge/Data-Analyst-Certification-yellow)  
+- **Data Analyst Certificate** 
   [View Certificate](https://drive.google.com/file/d/1JCg0QlikmUsXv_STck8Ylo9VIq1chzwA/view?usp=drive_link)  
 
-- ![Certificate](https://img.shields.io/badge/Java-C++-Beginner-Certification-red)  
+- **Java and C++ Beginner Certification** 
   [View Certificate](https://drive.google.com/file/d/16uOo3EdHpglbMJV2RTKN_hhDA1bMk2g5/view?usp=drive_link)  
 
 ---
 
 ## 💼 Experience
+**Data Engineer** - May 2025 — Present
+Responsible for designing, developing, and maintaining data integration workflows using Azure Data Factory (ADF) to extract, transform, and load data from various sources such as Azure Blob Storage into Azure SQL Database and Snowflake. Building and tuning SQL and Snowflake queries for performance and data integrity. Collaborating with data analysts and data scientists to understand data requirements and deliver optimized data solutions. Monitoring and troubleshooting data pipelines to ensure reliability and efficiency. Writing and maintaining stored procedures and transformation scripts.
+
 **Data Engineer Intern** – Jan 2025 — Present  
 - Building and maintaining data pipelines using Python & SQL.  
 - Data cleaning, transformation, and integration tasks for analytics teams.  
