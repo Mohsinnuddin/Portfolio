@@ -1,44 +1,116 @@
-# vCard - Personal portfolio
+# Mohammed Mohsin Uddin - Personal Portfolio
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+![Portfolio Banner](./assets/images/my-avatar.png)
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+A fully responsive **personal portfolio website** showcasing my skills, projects, education, and experience. Built using **HTML, CSS, and JavaScript**, this portfolio highlights my work as a **Data Engineer/Data Analyst** and developer.
 
-## Demo
+---
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+## 🔗 Live Demo
+[![Portfolio Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=github)](https://mohsinnuddin.github.io/Portfolio/)
 
-## Prerequisites
+---
 
-Before you begin, ensure you have met the following requirements:
+## 🧑 About Me
+I am currently working as a **Data Engineer Intern**, focused on gaining practical experience in **data analytics and engineering**.  
+Motivated and proactive with expertise in **SQL, Java, Python, and C**, along with certifications in **Data Analytics using Microsoft Power BI** and **Java/C++ programming**.  
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+---
 
-## Installing vCard
+## 💼 Skills
 
-To install **vCard**, follow these steps:
+### Programming Languages & Tools
+| Language / Tool      | Proficiency |
+|---------------------|------------|
+| SQL                 | 85%        |
+| Looker Studio       | 70%        |
+| Python              | 50%        |
+| Java                | 40%        |
+| Alteryx             | 60%        |
+| DBT                 | 50%        |
 
-Linux and macOS:
+### Technical Skills
+- **Data Engineering:** Building and managing scalable, efficient data pipelines.  
+- **Data Analytics:** Transforming complex data into actionable insights.  
+- **App Development:** Mobile and web applications with modern frameworks.  
+- **MS Office:** Reporting, automation, and productivity.
 
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+---
 
-Windows:
+## 🏫 Education
+- **CSI Wesley Institute of Technology and Sciences** (2020 — 2024)  
+  Courses: Data Structures, Algorithms, Database Management, Web Development, Software Engineering  
+  Projects: Gym Trainer App, Tourism Management System  
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+- **Sultan Ul Uloom Junior College** (2018 — 2020)  
+  Focus: Mathematics, Physical Sciences; Analytical skills development  
 
-## Contact
+- **ST. Joseph's High School** (2017 — 2018)  
+  Strong foundation in Mathematics, Science, and English  
 
-If you want to contact me you can reach me at [Twitter](https://www.x.com/codewithsadee_).
+---
 
-## License
+## 🏆 Certifications
+- ![Certificate](https://img.shields.io/badge/Data-Analyst-Certification-yellow)  
+  [View Certificate](https://drive.google.com/file/d/1JCg0QlikmUsXv_STck8Ylo9VIq1chzwA/view?usp=drive_link)  
 
-MIT
+- ![Certificate](https://img.shields.io/badge/Java-C++-Beginner-Certification-red)  
+  [View Certificate](https://drive.google.com/file/d/16uOo3EdHpglbMJV2RTKN_hhDA1bMk2g5/view?usp=drive_link)  
+
+---
+
+## 💼 Experience
+**Data Engineer Intern** – Jan 2025 — Present  
+- Building and maintaining data pipelines using Python & SQL.  
+- Data cleaning, transformation, and integration tasks for analytics teams.  
+- Tools: **Alteryx, Power BI**, and cloud-based platforms.  
+
+---
+
+## 📂 Projects
+
+### Gym Trainer App
+**Role:** UI Developer  
+Android app developed in **Java** with **Firebase** integration for authentication and database.  
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge&logo=github)](https://github.com/Mohsinnuddin/Gym-Trainer-App)
+
+### Tourism Management System
+**Role:** Developer  
+Manages customers, bookings, cancellations, and tourism info.  
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge&logo=github)](https://github.com/Mohsinnuddin/Tourism-Management-System)
+
+### Portfolio Projects
+- **Titanic Analysis** – Looker Studio dashboard  
+- **Sales Analysis** – Looker Studio interactive dashboard  
+- **Cohort Analysis** – Alteryx workflow for customer retention  
+- **Replicate Tables / Macro** – Alteryx workflows and macros  
+
+---
+
+## 📧 Contact
+- **Email:** mohsinnuddin@gmail.com  
+- **Location:** Telangana, India  
+- **LinkedIn:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mohammed-mohsin-uddin-7830a9315/)  
+- **GitHub:** [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://www.github.com/Mohsinnuddin)  
+- **Instagram:** [![Instagram](https://img.shields.io/badge/Instagram-Profile-purple?style=for-the-badge&logo=instagram)](https://www.instagram.com/mohsinnuddin_)  
+
+---
+
+## 🛠️ Built With
+- HTML5, CSS3, JavaScript  
+- Ionicons for icons  
+- Responsive design (desktop, tablet, mobile)  
+
+---
+
+## ⚡ Features
+- Responsive sidebar with contact info & social links  
+- Horizontal scroll for Programming Languages & Tools  
+- Portfolio section with project modals & GitHub links  
+- Skill progress bars  
+- Contact form via FormSubmit  
+
+---
+
+## 📌 License
+This project is **open-source** and available under the **MIT License**.
