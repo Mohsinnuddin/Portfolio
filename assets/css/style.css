@@ -21,7 +21,7 @@
    * colors
    */
 
-  /* Soft Blue & Lavender (Calm + Professional) Palette */
+  /* Soft Blue & Lavender (Calm + Professional) Palette - Light Mode (Default) */
   --primary: #A5C9CA;
   --accent: #395B64;
   --secondary: #E7F6F2;
@@ -30,7 +30,7 @@
   --background: #A5C9CA;
   --surface: #B8D4D5;
 
-  /* gradients */
+  /* gradients - Light Mode */
   --gradient-primary: linear-gradient(to bottom right, #E7F6F2 3%, #A5C9CA 97%);
   --gradient-surface: linear-gradient(to bottom right, rgba(57,91,100,0.15) 0%, rgba(165,201,202,0) 100%), #A5C9CA;
   --gradient-accent: linear-gradient(to bottom right, #395B64 0%, rgba(57,91,100,0) 50%);
@@ -43,6 +43,22 @@
 
   /* font-family */
   --ff-poppins: 'Poppins', sans-serif;
+  
+  /* Dark Mode Colors - Will be applied when .dark-mode class is added to body */
+  --dark-primary: #1F1B24;
+  --dark-accent: #FF0266;
+  --dark-secondary: #00E5FF;
+  --dark-text: #FFFFFF;
+  --dark-text-muted: rgba(255,255,255,0.7);
+  --dark-background: #1F1B24;
+  --dark-surface: #2a223a;
+  
+  /* gradients - Dark Mode */
+  --dark-gradient-primary: linear-gradient(to bottom right, #2a223a 3%, #1F1B24 97%);
+  --dark-gradient-surface: linear-gradient(to bottom right, rgba(255,2,102,0.15) 0%, rgba(31,27,36,0) 100%), #1F1B24;
+  --dark-gradient-accent: linear-gradient(to bottom right, #FF0266 0%, rgba(255,2,102,0) 50%);
+  --dark-gradient-border: linear-gradient(to bottom right, #00E5FF 0%, rgba(0,229,255,0) 50%);
+  --dark-gradient-text: linear-gradient(to right, #FF0266, #00E5FF);
 
   /* font-size */
   --fs-1: 24px;
@@ -124,6 +140,90 @@ input, textarea {
 html { font-family: var(--ff-poppins); }
 
 body { background: var(--background); }
+
+/* Dark Mode Styles */
+body.dark-mode {
+  --primary: var(--dark-primary);
+  --accent: var(--dark-accent);
+  --secondary: var(--dark-secondary);
+  --text: var(--dark-text);
+  --text-muted: var(--dark-text-muted);
+  --background: var(--dark-background);
+  --surface: var(--dark-surface);
+  --gradient-primary: var(--dark-gradient-primary);
+  --gradient-surface: var(--dark-gradient-surface);
+  --gradient-accent: var(--dark-gradient-accent);
+  --gradient-border: var(--dark-gradient-border);
+  --gradient-text: var(--dark-gradient-text);
+}
+
+/* Theme Toggle Switch */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle-label {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.theme-toggle-input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.theme-toggle-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--surface);
+  border: 1px solid var(--secondary);
+  transition: var(--transition-1);
+  border-radius: 30px;
+}
+
+.theme-toggle-slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 3px;
+  background-color: var(--accent);
+  transition: var(--transition-1);
+  border-radius: 50%;
+}
+
+.theme-toggle-input:checked + .theme-toggle-slider {
+  background-color: var(--dark-surface);
+  border-color: var(--dark-secondary);
+}
+
+.theme-toggle-input:checked + .theme-toggle-slider:before {
+  transform: translateX(29px);
+  background-color: var(--dark-accent);
+}
+
+.theme-toggle-icon {
+  margin: 0 8px;
+  color: var(--text);
+  font-size: 18px;
+}
+
+body.dark-mode .theme-toggle-icon {
+  color: var(--dark-text);
+}
 
 
 
@@ -427,7 +527,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(180, 20%, 80%, 0.75);
+  background: var(--surface);
   backdrop-filter: blur(10px);
   border: 1px solid var(--secondary);
   border-radius: 12px 12px 0 0;
@@ -441,6 +541,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 0 10px;
+  flex: 1;
 }
 
 .navbar-link {
@@ -466,6 +567,102 @@ main {
   padding: 8px 12px;
   font-weight: var(--fw-500);
   box-shadow: var(--shadow-1);
+}
+
+/* Theme Toggle in Navbar */
+.navbar-theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle-navbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 8px;
+}
+
+.theme-icon {
+  font-size: 16px;
+  opacity: 0.7;
+  transition: opacity var(--transition-1);
+}
+
+.theme-toggle-label-navbar {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.theme-toggle-input-navbar {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.theme-toggle-slider-navbar {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--secondary);
+  transition: var(--transition-1);
+  border-radius: 20px;
+}
+
+.theme-toggle-slider-navbar:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 2px;
+  bottom: 2px;
+  background-color: var(--accent);
+  transition: var(--transition-1);
+  border-radius: 50%;
+}
+
+.theme-toggle-input-navbar:checked + .theme-toggle-slider-navbar {
+  background-color: var(--surface);
+  border-color: var(--accent);
+}
+
+.theme-toggle-input-navbar:checked + .theme-toggle-slider-navbar:before {
+  transform: translateX(20px);
+  background-color: var(--secondary);
+}
+
+/* Theme icon states */
+body:not(.dark-mode) .sun-icon {
+  opacity: 1;
+  color: var(--accent);
+}
+
+body:not(.dark-mode) .moon-icon {
+  opacity: 0.5;
+}
+
+body.dark-mode .sun-icon {
+  opacity: 0.5;
+}
+
+body.dark-mode .moon-icon {
+  opacity: 1;
+  color: var(--secondary);
+}
+
+/* Hover effects for theme toggle */
+.theme-toggle-navbar:hover .theme-icon {
+  opacity: 1;
+}
+
+.theme-toggle-navbar:hover .theme-toggle-slider-navbar {
+  box-shadow: 0 0 10px rgba(0, 229, 255, 0.3);
 }
 
 
@@ -1972,6 +2169,32 @@ textarea.form-input:invalid:not(:focus):not(:placeholder-shown) + .validation-me
   }
 
   .navbar-link { font-weight: var(--fw-500); }
+
+  /* Theme toggle desktop styles */
+  .theme-toggle-navbar {
+    padding: 15px 12px;
+    gap: 10px;
+  }
+
+  .theme-icon {
+    font-size: 18px;
+  }
+
+  .theme-toggle-label-navbar {
+    width: 45px;
+    height: 22px;
+  }
+
+  .theme-toggle-slider-navbar:before {
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+  }
+
+  .theme-toggle-input-navbar:checked + .theme-toggle-slider-navbar:before {
+    transform: translateX(23px);
+  }
 
 
 

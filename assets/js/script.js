@@ -3,6 +3,31 @@
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
+// Theme toggle functionality
+const themeToggleNavbar = document.getElementById('themeToggleNavbar');
+const body = document.body;
+
+// Check for saved theme preference or use default (light mode)
+if (localStorage.getItem('darkMode') === 'enabled') {
+  body.classList.add('dark-mode');
+  if (themeToggleNavbar) {
+    themeToggleNavbar.checked = true;
+  }
+}
+
+// Listen for toggle changes
+if (themeToggleNavbar) {
+  themeToggleNavbar.addEventListener('change', function() {
+    if (this.checked) {
+      body.classList.add('dark-mode');
+      localStorage.setItem('darkMode', 'enabled');
+    } else {
+      body.classList.remove('dark-mode');
+      localStorage.setItem('darkMode', 'disabled');
+    }
+  });
+}
+
 // sidebar variables
 const sidebar = document.querySelector("[data-sidebar]");
 const sidebarBtn = document.querySelector("[data-sidebar-btn]");
