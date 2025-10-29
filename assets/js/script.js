@@ -65,7 +65,8 @@ for (let i = 0; i < AcademicProjectsItem.length; i++) {
     modalImg.src = projectAvatar.src;
     modalImg.alt = projectAvatar.alt;
     modalTitle.innerHTML = projectTitle;
-    modalText.innerHTML = `<p style="color: var(--white-2);">${projectText}</p>`;
+    // Use theme-aware text color via CSS (var(--text))
+    modalText.innerHTML = `<p>${projectText}</p>`;
 
     // Update the "View Here" link based on the project
     const viewHereLink = document.querySelector(".projectview-button");
@@ -99,6 +100,26 @@ for (let i = 0; i < formInputs.length; i++) {
     } else {
       formBtn.setAttribute("disabled", "");
     }
+  });
+}
+
+// Ensure initial disabled state if form invalid on load
+document.addEventListener('DOMContentLoaded', function () {
+  if (form && formBtn) {
+    if (!form.checkValidity()) {
+      formBtn.setAttribute('disabled', '');
+    } else {
+      formBtn.removeAttribute('disabled');
+    }
+  }
+});
+
+// Intercept submit to set a flag for post-redirect success message
+if (form) {
+  form.addEventListener('submit', function () {
+    try {
+      localStorage.setItem('formSubmitted', 'true');
+    } catch (e) { /* ignore storage errors */ }
   });
 }
 
@@ -164,12 +185,16 @@ if (certificationCloseBtn && certificationOverlay) {
 // ==========================
 document.addEventListener('DOMContentLoaded', function () {
   const urlParams = new URLSearchParams(window.location.search);
-  if (urlParams.get('success') === 'true') {
-    const successMessage = document.querySelector('.success-message');
-    const form = document.querySelector('.form');
-    if (successMessage && form) {
-      successMessage.classList.add('show');
-      form.classList.add('hide');
-    }
+  const successMessage = document.querySelector('.success-message');
+  const contactFormEl = document.querySelector('.form');
+  const hasSuccessParam = urlParams.get('success') === 'true';
+  const atContactSection = window.location.hash === '#contact';
+  let hasSubmittedFlag = false;
+  try { hasSubmittedFlag = localStorage.getItem('formSubmitted') === 'true'; } catch (e) {}
+
+  if (successMessage && contactFormEl && (hasSuccessParam || (hasSubmittedFlag && atContactSection))) {
+    successMessage.classList.add('show');
+    contactFormEl.classList.add('hide');
+    try { localStorage.removeItem('formSubmitted'); } catch (e) {}
   }
 });

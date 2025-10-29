@@ -842,6 +842,11 @@ body.dark-mode .moon-icon {
   pointer-events: all;
 }
 
+/* Dark mode overlay should be dark */
+body.dark-mode .overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+
 .AcademicProjects-modal {
   background: var(--surface);
   position: relative;
@@ -1387,6 +1392,11 @@ body.dark-mode .moon-icon {
   height: 100%;
   border: none;
   filter: grayscale(0.3) brightness(1.1) contrast(1.1);
+}
+
+/* Dark mode: simulate dark map via CSS filters for embedded iframe */
+body.dark-mode .mapbox iframe {
+  filter: invert(1) hue-rotate(180deg) grayscale(0.2) brightness(0.9) contrast(1.05);
 }
 
 .contact-form { margin-bottom: 10px; }
@@ -2040,19 +2050,20 @@ textarea.form-input:invalid:not(:focus):not(:placeholder-shown) + .validation-me
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
-	
-.projectview-button {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 10px 20px;
-  background-color: #111110; /* yellow */
-  color: white;
-  text-decoration: none;
-  border-radius: 25px; /* fully rounded */
-  font-weight: bold;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* subtle lift */
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
+
+  /* Ensure project view button matches theme on mobile */
+  .projectview-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background: var(--gradient-primary);
+    color: var(--text);
+    text-decoration: none;
+    border-radius: 14px;
+    font-weight: var(--fw-500);
+    box-shadow: var(--shadow-2);
+    transition: var(--transition-1);
+  }
 
   .AcademicProjects .service-item-textTTMS {
     color: var(--text);
@@ -2453,6 +2464,11 @@ textarea.form-input:invalid:not(:focus):not(:placeholder-shown) + .validation-me
   opacity: 0.8;
   visibility: visible;
   pointer-events: all;
+}
+
+/* Dark mode overlay for portfolio modal */
+body.dark-mode .portfolio-modal-overlay {
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .portfolio-modal {
