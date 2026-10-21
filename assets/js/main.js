@@ -15,9 +15,11 @@
 
   (function initTheme(){
     const saved = localStorage.getItem(THEME_KEY);
-    if (saved) { applyTheme(saved); return; }
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    applyTheme(prefersDark ? "dark" : "light");
+    if (saved) {
+      applyTheme(saved);
+      return;
+    }
+    applyTheme("dark");
   })();
 
   themeToggle && themeToggle.addEventListener("click", () => {
