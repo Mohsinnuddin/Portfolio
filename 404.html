@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>404 — Pipeline failed · Mohammed Mohsin Uddin</title>
+<meta name="robots" content="noindex" />
+<link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+<style>
+  .error-page{
+    min-height: 100dvh; display:flex; align-items:center; justify-content:center;
+    padding: 2rem;
+  }
+  .error-card{
+    max-width: 480px; width:100%;
+    background: var(--code-bg); border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg); overflow:hidden; font-family: var(--font-mono);
+  }
+  .error-card__bar{ display:flex; align-items:center; gap:.4rem; padding:.8rem 1rem; border-bottom:1px solid rgba(255,255,255,.06); }
+  .error-card__title{ margin-left:.4rem; font-size:.74rem; color: var(--code-ink-soft); }
+  .error-card__body{ padding: 1.4rem 1.5rem 1.7rem; }
+  .error-code{ color:#E2685A; font-size:.86rem; margin-bottom:.9rem; }
+  .error-code b{ color: var(--code-ink); font-weight:500; }
+  .error-msg{ color: var(--code-ink); font-size:1.5rem; font-family: var(--font-display); margin-bottom:.6rem; line-height:1.3; }
+  .error-sub{ color: var(--code-ink-soft); font-size:.9rem; margin-bottom:1.6rem; }
+  .error-actions{ display:flex; gap:.7rem; flex-wrap:wrap; }
+  /* buttons here sit on the dark terminal card regardless of site theme,
+     so their outline variant needs light-on-dark colors explicitly */
+  .error-card .btn--outline{ color: var(--code-ink); border-color: rgba(255,255,255,.28); }
+  .error-card .btn--outline:hover{ color: var(--code-kw); border-color: var(--code-kw); }
+</style>
+</head>
+<body>
+  <main class="error-page">
+    <div class="error-card">
+      <div class="error-card__bar">
+        <span class="dot dot--r"></span><span class="dot dot--y"></span><span class="dot dot--g"></span>
+        <span class="error-card__title">pipeline_run.log</span>
+      </div>
+      <div class="error-card__body">
+        <p class="error-code">status: <b>FAILED</b> · exit code 404</p>
+        <p class="error-msg">This page didn't make it through the pipeline.</p>
+        <p class="error-sub">The route you asked for doesn't exist, or it moved. Nothing on the rest of the site is affected.</p>
+        <div class="error-actions">
+          <a class="btn btn--primary" href="./">Back to home</a>
+          <a class="btn btn--outline" href="./#contact">Contact me</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

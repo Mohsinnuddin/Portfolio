@@ -1,119 +1,122 @@
-# Mohammed Mohsin Uddin - Personal Portfolio
+# Mohammed Mohsin Uddin
 
-![Portfolio Banner](./assets/images/my-avatar.png)
+### Data Engineer · Azure Data Factory · Snowflake · SQL · Python
 
-A fully responsive **personal portfolio website** showcasing my skills, projects, education, and experience. Built using **HTML, CSS, and JavaScript**, this portfolio highlights my work as a **Data Engineer/Data Analyst** and developer.
+I build reliable data pipelines, transform complex source data into analytics-ready models, and automate database migration and validation workflows. I am a **Microsoft Certified Fabric Data Engineer Associate (DP-700)** with 1.5+ years of production data engineering experience.
 
----
+<p align="left">
+  <a href="https://mohsinnuddin.github.io/Portfolio/">Portfolio Website</a> ·
+  <a href="https://www.linkedin.com/in/mohammed-mohsin-uddin-7830a9315/">LinkedIn</a> ·
+  <a href="https://github.com/Mohsinnuddin">GitHub</a> ·
+  <a href="assets/Mohsin_Uddin_Resume_Data_Engineer.pdf">Download Resume</a>
+</p>
 
-## 🔗 Live Demo
-[![Portfolio Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=github)](https://mohsinnuddin.github.io/Portfolio/)
-
----
-
-## 🧑 About Me
-I am currently working as a **Data Engineer Intern**, focused on gaining practical experience in **data analytics and engineering**.  
-Motivated and proactive with expertise in **SQL, Java, Python, and C**, along with certifications in **Data Analytics using Microsoft Power BI** and **Java/C++ programming**.  
+![Portfolio preview](assets/images/og-image.png)
 
 ---
 
-## 💼 Skills
+## About Me
 
-### Programming Languages & Tools
-| Language / Tool      | Proficiency |
-|---------------------|------------|
-| SQL                 | 85%        |
-| Looker Studio       | 70%        |
-| Python              | 50%        |
-| Java                | 40%        |
-| Alteryx             | 60%        |
-| DBT                 | 50%        |
+I am a Data Engineer I at **Aykitech IT Solutions** in Hyderabad, India. My work focuses on building and maintaining ETL/ELT pipelines, developing dimensional data warehouses, modernising SQL workloads, and improving data quality through automation.
 
-### Technical Skills
-- **Data Engineering:** Building and managing scalable, efficient data pipelines.  
-- **Data Analytics:** Transforming complex data into actionable insights.  
-- **App Development:** Mobile and web applications with modern frameworks.  
-- **MS Office:** Reporting, automation, and productivity.
+I work across **Azure Data Factory, Azure SQL, Microsoft Fabric, Snowflake, Oracle SQL, SQL Server, Python, and dbt**. I also build automated validation and end-to-end tests to help ensure that data transformations and application workflows behave as expected.
 
----
+## Professional Highlights
 
-## 🏫 Education
-- **CSI Wesley Institute of Technology and Sciences** (2020 — 2024)  
-  Courses: Data Structures, Algorithms, Database Management, Web Development, Software Engineering  
-  Projects: Gym Trainer App, Tourism Management System  
+### Azure Data Factory and Data Warehousing
+- Developed event-triggered pipelines that ingest CSV and Excel files from Azure Blob Storage into SQL staging tables.
+- Integrated REST APIs and transformed nested JSON structures into relational data.
+- Built modular stored procedures for filtering, deduplication, and data type standardisation.
+- Orchestrated daily loads into fact and dimension tables using a star-schema design.
 
-- **Sultan Ul Uloom Junior College** (2018 — 2020)  
-  Focus: Mathematics, Physical Sciences; Analytical skills development  
+### Oracle-to-Snowflake Modernisation
+- Refactored legacy Oracle SQL into Snowflake SQL using modular CTEs and explicit joins.
+- Verified **100% row-level and aggregate output parity** between the source and target implementations.
+- Used Snowflake Query Profile to identify expensive execution steps and guide query optimisation.
+- Created data validation tests and automated Streamlit application workflows using Python and Selenium WebDriver.
 
-- **ST. Joseph's High School** (2017 — 2018)  
-  Strong foundation in Mathematics, Science, and English  
+### Production Database Migration Automation
+- Built a Python and `pyodbc` framework to automate SQL Server database migration from backups to a production environment.
+- Restored backups to staging, exported tables to consistently named CSV files, and provisioned target schemas programmatically.
+- Added reconciliation checks for row counts, column data types, and schema mappings to validate the load.
 
----
+## Technical Skills
 
-## 🏆 Certifications
-- **Data Analyst Certificate** 
-  [View Certificate](https://drive.google.com/file/d/1JCg0QlikmUsXv_STck8Ylo9VIq1chzwA/view?usp=drive_link)  
+| Area | Technologies and concepts |
+|---|---|
+| **Cloud and data platforms** | Azure Data Factory (ADF), Azure Blob Storage, Azure SQL, Microsoft Fabric, Snowflake, SQL Server |
+| **SQL and databases** | SQL, T-SQL, Snowflake SQL, Oracle SQL, MySQL, stored procedures, CTEs, query optimisation |
+| **ETL/ELT and integration** | Data pipelines, event-based triggers, scheduled orchestration, REST API ingestion, JSON parsing and flattening, CSV/Excel automation, dbt |
+| **Data warehousing** | Dimensional modelling, star schema, fact and dimension tables, staging layers, data migration and reconciliation |
+| **Programming and automation** | Python, `pyodbc`, Selenium WebDriver, Java, C/C++ |
+| **Quality and analytics** | Data validation, end-to-end testing, Power BI, DAX, KPI dashboards, Looker Studio, Excel |
+| **Tools** | Git, GitHub, Linux |
 
-- **Java and C++ Beginner Certification** 
-  [View Certificate](https://drive.google.com/file/d/16uOo3EdHpglbMJV2RTKN_hhDA1bMk2g5/view?usp=drive_link)  
-
----
-
-## 💼 Experience
-**Data Engineer** - May 2025 — Present
-Responsible for designing, developing, and maintaining data integration workflows using Azure Data Factory (ADF) to extract, transform, and load data from various sources such as Azure Blob Storage into Azure SQL Database and Snowflake. Building and tuning SQL and Snowflake queries for performance and data integrity. Collaborating with data analysts and data scientists to understand data requirements and deliver optimized data solutions. Monitoring and troubleshooting data pipelines to ensure reliability and efficiency. Writing and maintaining stored procedures and transformation scripts.
-
-**Data Engineer Intern** – Jan 2025 — Present  
-- Building and maintaining data pipelines using Python & SQL.  
-- Data cleaning, transformation, and integration tasks for analytics teams.  
-- Tools: **Alteryx, Power BI**, and cloud-based platforms.  
-
----
-
-## 📂 Projects
-
-### Gym Trainer App
-**Role:** UI Developer  
-Android app developed in **Java** with **Firebase** integration for authentication and database.  
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge&logo=github)](https://github.com/Mohsinnuddin/Gym-Trainer-App)
+## Selected Projects
 
 ### Tourism Management System
-**Role:** Developer  
-Manages customers, bookings, cancellations, and tourism info.  
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge&logo=github)](https://github.com/Mohsinnuddin/Tourism-Management-System)
+A Java Swing and MySQL application for managing travel-related records, including customer profiles, tour packages, hotel reservations, cancellations, and booking history.
 
-### Portfolio Projects
-- **Titanic Analysis** – Looker Studio dashboard  
-- **Sales Analysis** – Looker Studio interactive dashboard  
-- **Cohort Analysis** – Alteryx workflow for customer retention  
-- **Replicate Tables / Macro** – Alteryx workflows and macros  
+**Tech:** Java · Java Swing · SQL · MySQL  
+[View project on GitHub](https://github.com/Mohsinnuddin/Tourism-Management-System)
+
+### Gym Trainer Application
+An Android application using Firebase Authentication and a real-time NoSQL database to support workout plans, fitness metrics, and activity tracking.
+
+**Tech:** Java · Android Studio · Firebase  
+[View project on GitHub](https://github.com/Mohsinnuddin/Gym-Trainer-App)
+
+## Certifications
+
+- **Microsoft Certified: Fabric Data Engineer Associate (DP-700)** — [Verify credential](https://learn.microsoft.com/api/credentials/share/en-us/mohsinnuddin/64E8080F8AAC35F8?sharingId=95E449EA0CF8642B)
+- **Data Analytics with Microsoft Power BI** — NASSCOM IT-ITeS Sector Skills Council, September–December 2024. [Verify certificate](https://inspiration-fun-7467.my.salesforce-sites.com/CDACcertificatePage2?id=a02Vy000008lWpXIAU)
+
+## Education
+
+**Bachelor of Technology (B.Tech), Computer Science and Engineering**  
+CSI Wesley Institute of Technology and Sciences · Hyderabad, India · 2020–2024
+
+## About This Portfolio
+
+This is a lightweight, responsive static website built with plain HTML, CSS, and JavaScript. It has no framework or build step.
+
+- Responsive layout and keyboard-visible focus states
+- Light/dark theme toggle with the selected theme saved in browser storage
+- Scroll-progress indicator, section navigation, and back-to-top control
+- Downloadable resume and contact links
+- Favicon and app icons, social sharing image, structured metadata, `robots.txt`, sitemap, web manifest, and custom `404.html`
+- Reduced-motion support for visitors who prefer less animation
+
+## Run Locally
+
+**Requirements:** a browser and Python 3 (or any static file server). No dependencies need to be installed.
+
+From the directory containing `index.html`, run:
+
+```bash
+python -m http.server 8000
+```
+
+Open [http://localhost:8000](http://localhost:8000) in your browser. Stop the server with `Ctrl+C` when you are finished.
+
+## Deploy with GitHub Pages
+
+1. Keep `index.html` in the repository root used by GitHub Pages.
+2. Commit and push the site files to the branch configured for Pages (commonly `main` or `gh-pages`).
+3. In the repository settings, confirm the GitHub Pages source points to the correct branch and folder.
+
+The published portfolio URL is **https://mohsinnuddin.github.io/Portfolio/**.
+
+If you move the site to a different domain, update the canonical URL, social metadata, structured data, `site.webmanifest`, `robots.txt`, and `sitemap.xml` as well.
+
+## Contact
+
+For data engineering opportunities or collaboration:
+
+- **Email:** [mohsinnuddin@gmail.com](mailto:mohsinnuddin@gmail.com)
+- **LinkedIn:** [mohammed-mohsin-uddin-7830a9315](https://www.linkedin.com/in/mohammed-mohsin-uddin-7830a9315/)
+- **Portfolio:** [mohsinnuddin.github.io/Portfolio](https://mohsinnuddin.github.io/Portfolio/)
 
 ---
 
-## 📧 Contact
-- **Email:** mohsinnuddin@gmail.com  
-- **Location:** Telangana, India  
-- **LinkedIn:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mohammed-mohsin-uddin-7830a9315/)  
-- **GitHub:** [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://www.github.com/Mohsinnuddin)  
-- **Instagram:** [![Instagram](https://img.shields.io/badge/Instagram-Profile-purple?style=for-the-badge&logo=instagram)](https://www.instagram.com/mohsinnuddin_)  
-
----
-
-## 🛠️ Built With
-- HTML5, CSS3, JavaScript  
-- Ionicons for icons  
-- Responsive design (desktop, tablet, mobile)  
-
----
-
-## ⚡ Features
-- Responsive sidebar with contact info & social links  
-- Horizontal scroll for Programming Languages & Tools  
-- Portfolio section with project modals & GitHub links  
-- Skill progress bars  
-- Contact form via FormSubmit  
-
----
-
-## 📌 License
-This project is **open-source** and available under the **MIT License**.
+*Thanks for visiting my portfolio. Feel free to connect with me on LinkedIn.*
