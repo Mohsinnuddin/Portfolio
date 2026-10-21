@@ -8,7 +8,7 @@ I build reliable data pipelines, transform complex source data into analytics-re
   <a href="https://mohsinnuddin.github.io/Portfolio/">Portfolio Website</a> ·
   <a href="https://www.linkedin.com/in/mohammed-mohsin-uddin-7830a9315/">LinkedIn</a> ·
   <a href="https://github.com/Mohsinnuddin">GitHub</a> ·
-  <a href="assets/Mohsin_Uddin_Resume_Data_Engineer.pdf">Download Resume</a>
+  <a href="assets/Resume.pdf">Download Resume</a>
 </p>
 
 ![Portfolio preview](assets/images/og-image.png)
