@@ -1,909 +1,598 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="en" data-theme="light">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mohsin Portfolio</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mohammed Mohsin Uddin — Data Engineer</title>
+<meta name="description" content="Mohammed Mohsin Uddin — Microsoft Certified Fabric Data Engineer Associate (DP-700) building ETL/ELT pipelines, data warehouses and Oracle-to-Snowflake migrations with Azure Data Factory, Snowflake, SQL and Python." />
+<meta name="theme-color" content="#0F1613" />
+<meta name="author" content="Mohammed Mohsin Uddin" />
+<link rel="canonical" href="https://mohsinnuddin.github.io/Portfolio/" />
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+<!-- Open Graph -->
+<meta property="og:title" content="Mohammed Mohsin Uddin — Data Engineer" />
+<meta property="og:description" content="Microsoft Certified Data Engineer (DP-700): ETL/ELT pipelines, data warehouses and Oracle-to-Snowflake migrations." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://mohsinnuddin.github.io/Portfolio/" />
+<meta property="og:image" content="https://mohsinnuddin.github.io/Portfolio/assets/images/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+<!-- Twitter card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Mohammed Mohsin Uddin — Data Engineer" />
+<meta name="twitter:description" content="Microsoft Certified Data Engineer (DP-700): ETL/ELT pipelines, data warehouses and Oracle-to-Snowflake migrations." />
+<meta name="twitter:image" content="https://mohsinnuddin.github.io/Portfolio/assets/images/og-image.png" />
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<!-- Icons -->
+<link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css" />
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Mohammed Mohsin Uddin",
+  "jobTitle": "Data Engineer",
+  "url": "https://mohsinnuddin.github.io/Portfolio/",
+  "email": "mailto:mohsinnuddin@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Hyderabad",
+    "addressRegion": "Telangana",
+    "addressCountry": "IN"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/mohammed-mohsin-uddin-7830a9315/",
+    "https://www.github.com/Mohsinnuddin",
+    "https://www.instagram.com/mohsinnuddin"
+  ],
+  "worksFor": { "@type": "Organization", "name": "Aykitech IT Solutions" },
+  "hasCredential": { "@type": "EducationalOccupationalCredential", "name": "Microsoft Certified: Fabric Data Engineer Associate (DP-700)" },
+  "knowsAbout": ["SQL", "Snowflake", "Azure Data Factory", "Microsoft Fabric", "ETL/ELT", "Data Warehousing", "Oracle SQL", "MS SQL Server", "Python", "dbt", "Power BI", "Looker Studio"]
+}
+</script>
 </head>
-
 <body>
-
-
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Mohammed Mohsin Uddin" width="40">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Mohammed Mohsin Uddin">Mohammed Mohsin<br>Uddin</h1>
-
-          <p class="title">Data Engineer/Data Analyst</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:mohsinnuddin@gmail.com" class="contact-link">mohsinnuddin@gmail.com</a>
-            </div>
-
-          </li>
-
-
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">2 October, 2002</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Telangana, India</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/mohammed-mohsin-uddin-7830a9315/" class="social-link" target="_blank">
-              <ion-icon name="logo-linkedin" style="filter: var(--accent-filter);"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.github.com/Mohsinnuddin" class="social-link" target="_blank">
-              <ion-icon name="logo-github" style="filter: var(--accent-filter);"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/mohsinnuddin" class="social-link" target="_blank">
-              <ion-icon name="logo-instagram" style="filter: var(--accent-filter);"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-          <li class="navbar-item navbar-theme-toggle">
-            <div class="theme-toggle-navbar">
-              <span class="theme-icon sun-icon">☀️</span>
-              <label class="theme-toggle-label-navbar">
-                <input type="checkbox" class="theme-toggle-input-navbar" id="themeToggleNavbar">
-                <span class="theme-toggle-slider-navbar"></span>
-              </label>
-              <span class="theme-icon moon-icon">🌙</span>
-            </div>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I am Currently working as a Data Engineer-I , I am focused on gaining practical experience in data analytics
-            and engineering.
-            A motivated and proactive individual with expertise in programming languages such as SQL,Java, Python and C.
-            With certifications in Data Analytics using Microsoft Power BI and Java/C++ programming,
-            I am passionate about applying my skills to real-world challenges and contributing to the success of
-            innovative projects.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/data engineer.png" alt="Data Engineer icon" width="70">
-
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Data Engineering</h4>
-
-                <p class="service-item-text">
-                  Building and managing scalable, efficient data pipelines and systems.
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/data analysis.png" alt="Data Analysis icon" width="70">
-
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Data Analytics</h4>
-
-                <p class="service-item-text">
-                  Transforming complex data into clear, actionable insights.
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/android development.png" alt="Android Development icon" width="70">
-
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">App Development</h4>
-
-                <p class="service-item-text">
-                  Developing high-quality mobile and web applications with modern frameworks.
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/microsoft office.png" alt="MS Office icon" width="70">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">MS Office</h4>
-
-                <p class="service-item-text">
-                  Skilled in using MS Office tools for reporting, automation, and task efficiency.</p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - AcademicProjects
-        -->
-        <section class="AcademicProjects">
-          <h3 class="h3 AcademicProjects-title">Academic Projects</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item" data-AcademicProjects-item>
-
-              <div class="service-icon-box">
-                <img src="./assets/images/AcademicprojectGT.png" alt="Gym Trainer App" width="110"
-                  data-AcademicProjects-avatar>
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title" data-AcademicProjects-title>Gym Trainer App</h4>
-
-                <p class="service-item-textGT" data-AcademicProjects-text>
-                  <strong>Role:</strong> UI Developer<br>
-                  The Gym Trainer App is a mobile application developed in Android Studio using Java.
-                  It integrates with Firebase for user authentication, real-time database,
-                  and efficient data management, enhancing the fitness experience for users of all levels.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item" data-AcademicProjects-item>
-
-              <div class="service-icon-box">
-                <img src="./assets/images/AcademicprojectTMS.png" alt="Tourism Management System" width="110"
-                  data-AcademicProjects-avatar>
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title" data-AcademicProjects-title>Tourism Management System</h4>
-
-                <p class="service-item-textTTMS" data-AcademicProjects-text>
-                  <strong>Role:</strong> Developer<br>
-                  The Tourism Management System aims to manage the details of Customer,
-                  Hotel Bookings, Cancellation and Tourism Places.
-                  It manages information about Users, Hotel, Packages etc.
-                  The users can track the information related to their tours with great ease and
-                  travel agency information can also be obtained through this system.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-        </section>
-
-        <!--
-          - AcademicProjects modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="AcademicProjects-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Gym Trainer App" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Gym Trainer App</h4>
-
-
-              <div data-modal-text>
-                <p>
-                  The Gym Trainer App is a mobile application developed in Android Studio using Java.
-                  It integrates with Firebase for user authentication, real-time database, and efficient data
-                  management,
-                  enhancing the fitness experience for users of all levels.
-                </p>
-              </div>
-              <a href="https://github.com/Mohsinnuddin/Gym-Trainer-App" target="_blank" class="projectview-button">View
-                Here</a>
-            </div>
-
-          </section>
-
-        </div>
-        <!-- AcademicProjects modal end -->
-
-        <!-- Programming Languages -->
-
-        <!-- Programming Languages -->
-        <section class="programminglang">
-          <h3 class="h3 programminglang-title">Programming Languages & Tools</h3>
-          <div style="margin-bottom: 10px;"></div>
-
-          <ul class="programminglang-list has-scrollbar">
-
-            <li class="programminglang-item" width="100%">
-              <a href="https://www.flaticon.com/free-icon/database_16765493?term=sql&page=2&position=21&origin=tag&related_id=16765493"
-                target="_blank" class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/images/prog lang SQL.svg" alt="SQL">
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">SQL</h4>
-                </div>
-              </a>
-            </li>
-
-            <li class="programminglang-item">
-              <a href="https://www.python.org/" target="_blank" class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/images/prog lang python.svg" alt="Python">
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Python</h4>
-                </div>
-              </a>
-            </li>
-
-            <li class="programminglang-item">
-              <a href="https://www.getdbt.com/" target="_blank" class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/images/dbtseek.png" alt="DBT">
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">DBT</h4>
-                </div>
-              </a>
-            </li>
-
-            <li class="programminglang-item">
-              <a href="https://www.alteryx.com/" target="_blank" class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/images/alteryx.svg" alt="Alteryx">
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Alteryx</h4>
-                </div>
-              </a>
-            </li>
-
-            <li class="programminglang-item">
-              <a href="https://lookerstudio.google.com/" target="_blank" class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/images/looker studio.svg" alt="Looker Studio">
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Looker Studio</h4>
-                </div>
-              </a>
-            </li>
-
-            <li class="programminglang-item">
-              <a href="https://www.java.com/" target="_blank" class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/images/prog lang java.svg" alt="Java">
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Java</h4>
-                </div>
-              </a>
-            </li>
-
-          </ul>
-        </section>
-        <!-- Credit: codewithsadee -->
-        <div
-          style="text-align:center; margin: 1.5rem 0 0.5rem 0; font-size: 0.75rem; color: var(--text-muted); display: flex; justify-content: center; align-items: center; gap: 0.4em;">
-          <span>Design inspiration by</span>
-          <a href="https://github.com/codewithsadee" target="_blank"
-            style="color: var(--accent); text-decoration: none; display: inline-flex; align-items: center; gap: 0.2em; font-weight: 500;">
-            <ion-icon name="logo-github" style="font-size: 1.2em; vertical-align: middle;"></ion-icon>
-            @codewithsadee
+<canvas class="bg-canvas" id="bgCanvas" aria-hidden="true"></canvas>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap site-header__inner">
+    <a href="#top" class="brand" aria-label="Mohammed Mohsin Uddin — home">
+      <span class="brand__mark">MU</span>
+      <span class="brand__name">Mohsin&nbsp;Uddin</span>
+    </a>
+
+    <nav class="site-nav" id="siteNav" aria-label="Primary">
+      <a href="#about" data-nav>About</a>
+      <a href="#experience" data-nav>Experience</a>
+      <a href="#projects" data-nav>Projects</a>
+      <a href="#skills" data-nav>Stack</a>
+      <a href="#credentials" data-nav>Credentials</a>
+      <a href="#contact" data-nav>Contact</a>
+    </nav>
+
+    <div class="site-header__actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+        <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><g stroke-linecap="round"><line x1="12" y1="2.5" x2="12" y2="5.2"/><line x1="12" y1="18.8" x2="12" y2="21.5"/><line x1="2.5" y1="12" x2="5.2" y2="12"/><line x1="18.8" y1="12" x2="21.5" y2="12"/><line x1="5.1" y1="5.1" x2="7" y2="7"/><line x1="17" y1="17" x2="18.9" y2="18.9"/><line x1="18.9" y1="5.1" x2="17" y2="7"/><line x1="7" y1="17" x2="5.1" y2="18.9"/></g></svg>
+        <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
+      </button>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="top">
+    <div class="wrap hero__inner">
+      <div class="hero__copy">
+        <p class="eyebrow">Portfolio · <span class="eyebrow-accent">Stage 00 — Overview</span></p>
+        <h1 class="hero__title">Mohammed Mohsin<br>Uddin</h1>
+        <p class="hero__role">Data&nbsp;Engineer</p>
+        <p class="hero__lede">
+          I build event-driven pipelines, dimensional warehouses and cross-platform
+          migrations on Azure Data Factory, Snowflake and SQL — and the Python
+          automation that proves they are correct.
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#contact">Get in touch</a>
+          <a class="btn btn--outline" href="assets/Mohsin_Uddin_Resume_Data_Engineer.pdf" download>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M4 19.5h16"/></svg>
+            Download résumé
           </a>
         </div>
+        <ul class="social-row" aria-label="Social links">
+          <li><a href="https://www.linkedin.com/in/mohammed-mohsin-uddin-7830a9315/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="7.5" y1="10" x2="7.5" y2="17"/><circle cx="7.5" cy="6.7" r="1.1" fill="currentColor" stroke="none"/><path d="M11.5 17v-4.2c0-1.6 1-2.6 2.4-2.6 1.4 0 2.1 1 2.1 2.6V17"/><line x1="11.5" y1="10" x2="11.5" y2="17"/></svg>
+          </a></li>
+          <li><a href="https://www.github.com/Mohsinnuddin" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5a9.5 9.5 0 0 0-3 18.52c.48.1.65-.21.65-.46v-1.7c-2.64.58-3.2-1.13-3.2-1.13-.43-1.1-1.06-1.4-1.06-1.4-.87-.6.07-.58.07-.58.96.07 1.46 1 1.46 1 .85 1.47 2.24 1.04 2.78.8.09-.62.33-1.04.6-1.28-2.11-.24-4.33-1.06-4.33-4.72 0-1.04.37-1.9.98-2.56-.1-.24-.42-1.22.1-2.54 0 0 .8-.26 2.62 .98a9 9 0 0 1 4.77 0c1.82-1.24 2.62-.98 2.62-.98.52 1.32.2 2.3.1 2.54.61.66.98 1.52.98 2.56 0 3.67-2.23 4.47-4.35 4.71.34.3.64.87.64 1.76v2.6c0 .25.17.56.66.46A9.5 9.5 0 0 0 12 2.5Z"/></svg>
+          </a></li>
+          <li><a href="https://www.instagram.com/mohsinnuddin" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+          </a></li>
+        </ul>
+      </div>
 
-
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <div class="download-resume">
-          <a href="./assets/Mohsin Resume.pdf" download class="download-btn">
-            <ion-icon name="download-outline"></ion-icon>
-            <span>Download Resume</span>
-          </a>
+      <div class="hero__visual" aria-hidden="false">
+        <div class="query-card" role="img" aria-label="Mock SQL query returning a summary of Mohammed Mohsin Uddin's profile">
+          <div class="query-card__bar">
+            <span class="dot dot--r"></span><span class="dot dot--y"></span><span class="dot dot--g"></span>
+            <span class="query-card__title">profile.sql</span>
+          </div>
+          <pre class="query-card__code"><code><span class="tok-kw">SELECT</span> * <span class="tok-kw">FROM</span> engineer
+<span class="tok-kw">WHERE</span> focus <span class="tok-op">=</span> <span class="tok-str">'data'</span>;</code></pre>
+          <table class="query-card__table">
+            <tbody>
+              <tr><th>name</th><td>Mohammed&nbsp;Mohsin&nbsp;Uddin</td></tr>
+              <tr><th>role</th><td>Data Engineer I</td></tr>
+              <tr><th>base</th><td>Hyderabad, IN</td></tr>
+              <tr><th>stack</th><td>Azure · Snowflake · SQL</td></tr>
+              <tr><th>status</th><td><span class="pulse-dot"></span>Actively&nbsp;building</td></tr>
+            </tbody>
+          </table>
+          <div class="query-card__foot">1 row returned</div>
         </div>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">CSI Wesley Institute of Technology and Sciences</h4>
-
-              <span>2020 — 2024</span>
-
-              <p class="timeline-text">
-                Completed coursework in Data Structures, Algorithms, Database Management Systems, Web Development, and
-                Software Engineering.
-                Participated in technical workshops and contributed to team projects, including a Gym Trainer app and
-                Tours and Travels Management System.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Sultan Ul Uloom junior College</h4>
-
-              <span>2018 — 2020</span>
-
-              <p class="timeline-text">
-                Focused on foundational concepts in mathematics and physical sciences. Developed problem-solving and
-                analytical thinking skills.
-                Actively participated in academic events and group learning sessions.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">ST.Joseph's High School</h4>
-
-              <span>2017 — 2018</span>
-
-              <p class="timeline-text">
-                Completed 10th grade with a strong foundation in core subjects including Mathematics, Science, and
-                English.
-                Participated in school-level competitions and activities, building communication and teamwork skills.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Data Engineer-I</h4>
-
-              <span>May 2025 — Present</span>
-
-              <p class="timeline-text">
-                Responsible for designing, developing, and maintaining data integration workflows using Azure Data
-                Factory (ADF) to extract, transform, and load data from various sources such as Azure Blob Storage into
-                Azure SQL Database and Snowflake.
-                Building and tuning SQL and Snowflake queries for performance and data integrity.
-                Collaborating with data analysts and data scientists to understand data requirements and deliver
-                optimized data solutions.
-                Monitoring and troubleshooting data pipelines to ensure reliability and efficiency.
-                Writing and maintaining stored procedures and transformation scripts.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Data Engineer Intern</h4>
-
-              <span>Jan 2025 — April 2025</span>
-
-              <p class="timeline-text">
-                Assisting in building and maintaining data pipelines using Python and SQL. Supporting data cleaning,
-                transformation, and integration tasks for analytics teams.
-                Gaining hands-on experience with tools like Alteryx, Power BI, and cloud-based data platforms.
-              </p>
-
-            </li>
-
-
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Certifications</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Data Analyst Certification</h4>
-
-              <span>Oct 2024 – Dec 2024</span>
-
-              <p class="timeline-text">
-                Completed a comprehensive certification program covering data analysis techniques, data visualization,
-                and reporting using tools such as Excel, SQL, Power BI, and Python.
-                Gained practical experience through hands-on projects and case studies.
-              </p>
-              <a href="https://drive.google.com/file/d/1JCg0QlikmUsXv_STck8Ylo9VIq1chzwA/view?usp=drive_link"
-                target="_blank" class="cert-button">View Here</a>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Java and C++ Beginner Certification</h4>
-
-              <span>2024 | Udemy</span>
-
-              <p class="timeline-text">
-                Completed beginner-level courses covering the basics of Java, C, and C++ programming, including syntax,
-                control structures, and simple problem-solving.
-              </p>
-              <a href="https://drive.google.com/file/d/16uOo3EdHpglbMJV2RTKN_hhDA1bMk2g5/view?usp=drive_link"
-                target="_blank" class="cert-button">View Here</a>
-
-            </li>
-
-
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item" data-value="85">
-
-              <div class="title-wrapper">
-                <h5 class="h5">SQL</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item" data-value="70">
-
-              <div class="title-wrapper">
-                <h5 class="h5">looker Studio</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item" data-value="50">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Python</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill"></div>
-              </div>
-
-            </li>
-
-
-
-            <li class="skills-item" data-value="40">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Java</h5>
-                <data value="40">40%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15282225.79979123!2d73.7250245393691!3d20.750301298393563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1647608789441!5m2!1sen!2sin"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <div class="success-message" style="display: none;">
-            <ion-icon name="checkmark-circle" style="color: var(--orange-yellow-crayola); font-size: 48px;"></ion-icon>
-            <p>Thank you! Your message has been sent successfully.</p>
-          </div>
-
-          <form action="https://formsubmit.co/mohsinnuddin@gmail.com" method="POST" class="form" data-form>
-            <input type="hidden" name="_next" value="https://mohsinnuddin.github.io/Portfolio/#contact">
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_template" value="box">
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input
-                pattern="[A-Za-z\s]{3,}" title="Please enter a valid name (minimum 3 characters, letters only)">
-              <span class="validation-message">Please enter a valid name (minimum 3 characters, letters only)</span>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input
-                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address">
-              <span class="validation-message">Please enter a valid email address</span>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input
-              minlength="10" title="Please enter a message (minimum 10 characters)"></textarea>
-            <span class="validation-message">Please enter a message (minimum 10 characters)</span>
-
-            <button class="form-btn" type="submit" data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-
+      </div>
+    </div>
+  <div class="wrap">
+    <ul class="stat-strip" aria-label="Highlights">
+      <li class="stat"><span class="stat__value">1.5+</span><span class="stat__label">years of production data engineering</span></li>
+      <li class="stat"><span class="stat__value">3</span><span class="stat__label">production data projects shipped</span></li>
+      <li class="stat"><span class="stat__value">DP-700</span><span class="stat__label">Microsoft Certified: Fabric Data Engineer Associate</span></li>
+      <li class="stat"><span class="stat__value">100%</span><span class="stat__label">row-level &amp; aggregate parity verified in an Oracle-to-Snowflake migration</span></li>
+    </ul>
+  </div>
+  </section>
+
+  <div class="pipeline" id="pipeline">
+    <div class="pipeline__rail" aria-hidden="true">
+      <div class="pipeline__rail-fill" id="railFill"></div>
     </div>
 
-  </main>
+    <!-- ===================== ABOUT ===================== -->
+    <section class="stage" id="about" data-stage>
+      <div class="wrap">
+        <header class="stage__head">
+          <span class="stage-node" aria-hidden="true"></span>
+          <p class="stage-tag">Stage 01 · Profile</p>
+          <h2 class="stage-title">About</h2>
+        </header>
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
+        <div class="stage__body about__grid">
+          <p class="about__lede">
+            I'm a Microsoft Certified Fabric Data Engineer Associate (DP-700)
+            with 1.5+ years of production experience building ETL/ELT pipelines,
+            dimensional data warehouses and cross-platform database migrations
+            across Azure SQL, MS SQL Server, Oracle and Snowflake. My work centres
+            on event-driven ingestion with Azure Data Factory, REST API and nested
+            JSON transformation, Oracle-to-Snowflake query migration, Snowflake
+            performance tuning, and Python-based automation and test frameworks.
+          </p>
 
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+          <div class="about__cards">
+            <article class="mini-card">
+              <span class="mini-card__icon" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24"><circle cx="5" cy="12" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="19" cy="18" r="2"/><path d="M7 12h4M11 12l4.5-4.5M11 12l4.5 4.5"/></svg>
+              </span>
+              <h3>Pipelines &amp; Orchestration</h3>
+              <p>Event-driven and scheduled Azure Data Factory pipelines for file and REST API ingestion.</p>
+            </article>
+            <article class="mini-card">
+              <span class="mini-card__icon" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="M3 12l9 5 9-5"/><path d="M3 16l9 5 9-5"/></svg>
+              </span>
+              <h3>Warehousing &amp; Modeling</h3>
+              <p>Staging layers and star-schema fact and dimension tables built for enterprise reporting.</p>
+            </article>
+            <article class="mini-card">
+              <span class="mini-card__icon" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M4 8h13l-3-3"/><path d="M20 16H7l3 3"/></svg>
+              </span>
+              <h3>Migration &amp; Optimisation</h3>
+              <p>Oracle-to-Snowflake query migration and Query Profile-driven performance tuning.</p>
+            </article>
+            <article class="mini-card">
+              <span class="mini-card__icon" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg>
+              </span>
+              <h3>Automation &amp; Testing</h3>
+              <p>Python and Selenium test frameworks, validation rules and reconciliation checks.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      // Update Gym Trainer App link
-      const gymTrainerLink = document.getElementById("gym-trainer-link");
-      if (gymTrainerLink) {
-        gymTrainerLink.href = "https://github.com/Mohsinnuddin/Gym-Trainer-App";
-      }
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section class="stage" id="experience" data-stage>
+      <div class="wrap">
+        <header class="stage__head">
+          <span class="stage-node" aria-hidden="true"></span>
+          <p class="stage-tag">Stage 02 · Pipeline</p>
+          <h2 class="stage-title">Experience</h2>
+        </header>
 
-      // Update Tourism Management System link
-      const tourismManagementLink = document.getElementById("tourism-management-link");
-      if (tourismManagementLink) {
-        tourismManagementLink.href = "https://github.com/Mohsinnuddin/Tourism-Management-System";
-      }
+        <div class="stage__body">
+          <ol class="timeline">
+            <li class="timeline__item">
+              <div class="timeline__meta">
+                <span class="timeline__badge timeline__badge--current">Current</span>
+                <span class="timeline__dates">May 2025 — Present</span>
+              </div>
+              <h3 class="timeline__role">Data Engineer I</h3>
+              <p class="timeline__org">Aykitech IT Solutions · Hyderabad, Telangana, India</p>
 
-      // Portfolio Project Modal Functionality
-      const projectModalContainer = document.querySelector("[data-project-modal-container]");
-      const projectModalCloseBtn = document.querySelector("[data-project-modal-close-btn]");
-      const projectOverlay = document.querySelector("[data-project-overlay]");
-      const projectItems = document.querySelectorAll("[data-project-item]");
+              <div class="exp-projects">
+              <article class="exp-project">
+                <h4>Entrepid Data Warehouse</h4>
+                <ol class="flow" aria-label="Data flow"><li class="flow__node">Blob Storage files + REST APIs</li><li class="flow__node">ADF event triggers</li><li class="flow__node">Staging SQL tables</li><li class="flow__node">Stored procedures: filter · dedupe · standardise</li><li class="flow__node">Fact &amp; Dimension (star schema)</li></ol>
+                <ul class="tag-row" aria-label="Technologies"><li class="tag">Azure Data Factory</li><li class="tag">Azure Blob Storage</li><li class="tag">Azure SQL</li><li class="tag">REST APIs</li><li class="tag">Stored Procedures</li></ul>
+                <ul class="timeline__list">
+                  <li>Built event-driven Azure Data Factory pipelines with storage event triggers that detect, validate, and load CSV and Excel files from Azure Blob Storage into staging SQL tables, removing manual file handling.</li>
+                  <li>Developed ADF pipelines to ingest data from external REST APIs and flatten nested JSON (keys, arrays, and parent-child nodes) into structured relational tables.</li>
+                  <li>Authored and optimized modular stored procedures for multi-stage transformations, including filtering, deduplication, and data type standardization of raw staging data.</li>
+                  <li>Scheduled daily stored procedure executions in ADF to load transformed API and flat-file data into production Fact and Dimension tables (star schema), supporting enterprise reporting and analytics.</li>
+                </ul>
+              </article>
+              <article class="exp-project">
+                <h4>Oracle-to-Snowflake Modernization</h4>
+                <ol class="flow" aria-label="Data flow"><li class="flow__node">Legacy Oracle SQL</li><li class="flow__node">Refactor to modular CTEs</li><li class="flow__node">Snowflake SQL</li><li class="flow__node">Query Profile tuning</li><li class="flow__node">100% parity verified</li></ol>
+                <ul class="tag-row" aria-label="Technologies"><li class="tag">Snowflake</li><li class="tag">Oracle SQL</li><li class="tag">CTEs</li><li class="tag">Streamlit</li><li class="tag">Python</li><li class="tag">Selenium</li></ul>
+                <ul class="timeline__list">
+                  <li>Migrated complex legacy Oracle SQL to Snowflake SQL, refactoring custom functions with correlated subqueries into modular CTEs with explicit joins, and verified 100% row-level and aggregate output parity between platforms.</li>
+                  <li>Optimized slow-running Snowflake queries using Query Profile, identifying the operators consuming the most time and restructuring query logic to reduce runtime.</li>
+                  <li>Created Snowflake validation test cases that enforce business rules and schema constraints whenever users enter data in enterprise Streamlit applications.</li>
+                  <li>Automated end-to-end functional tests with Python and Selenium WebDriver, covering user workflows, input validation rules, and database write-back in Streamlit applications.</li>
+                </ul>
+              </article>
+              <article class="exp-project">
+                <h4>Production Database Migration Framework</h4>
+                <ol class="flow" aria-label="Data flow"><li class="flow__node">SQL Server .bak backups</li><li class="flow__node">Restore to staging</li><li class="flow__node">schema_name.table_name.csv</li><li class="flow__node">pyodbc schema + bulk load</li><li class="flow__node">Reconciliation → Production</li></ol>
+                <ul class="tag-row" aria-label="Technologies"><li class="tag">Python</li><li class="tag">pyodbc</li><li class="tag">MS SQL Server</li><li class="tag">T-SQL</li><li class="tag">Dynamic DDL</li><li class="tag">CSV</li></ul>
+                <ul class="timeline__list">
+                  <li>Designed and built an end-to-end Python framework that automates the migration of MS SQL Server databases from backup files to the Production environment.</li>
+                  <li>Restored full database backups into a staging environment and extracted tables to flat CSV files under a standardized schema_name.table_name.csv convention, preserving schema context for downstream loading.</li>
+                  <li>Implemented schema-aware provisioning with pyodbc: parsed file names to derive schema and table, created target schemas in Production SQL Server programmatically, and bulk-loaded data into matching tables.</li>
+                  <li>Built post-load reconciliation checks comparing row counts, column data types, and schema mappings between staging and Production, ensuring zero data loss.</li>
+                </ul>
+              </article>
+              </div>
+            </li>
 
-      // Project modal variables
-      const projectModalImg = document.querySelector("[data-project-modal-img]");
-      const projectModalTitle = document.querySelector("[data-project-modal-title]");
-      const projectModalText = document.querySelector("[data-project-modal-text]");
-      const projectModalLink = document.querySelector("[data-project-modal-link]");
+            <li class="timeline__item">
+              <div class="timeline__meta">
+                <span class="timeline__badge">Internship</span>
+                <span class="timeline__dates">Jan 2025 — Apr 2025</span>
+              </div>
+              <h3 class="timeline__role">Data Engineer Intern</h3>
+              <p class="timeline__org">Aykitech IT Solutions · Hyderabad, Telangana, India</p>
+              <ul class="timeline__list">
+                  <li>Built and maintained automated data pipelines in Python and SQL to clean, filter, and organize raw datasets for cohort analysis and operational reporting.</li>
+                  <li>Assisted in developing, testing, and documenting modular dbt data models on Microsoft Fabric and Snowflake to support analytics and data science teams.</li>
+                  <li>Partnered with cross-functional stakeholders to analyze business performance data and build interactive KPI dashboards in Power BI and Looker Studio.</li>
+                </ul>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
 
-      // Project modal toggle function
-      const toggleProjectModal = () => {
-        projectModalContainer.classList.toggle("active");
-        projectOverlay.classList.toggle("active");
-      };
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="stage" id="projects" data-stage>
+      <div class="wrap">
+        <header class="stage__head">
+          <span class="stage-node" aria-hidden="true"></span>
+          <p class="stage-tag">Stage 03 · Builds</p>
+          <h2 class="stage-title">Academic Projects</h2>
+        </header>
 
-      // Add click event to all project items
-      projectItems.forEach((item) => {
-        item.addEventListener("click", (e) => {
-          e.preventDefault();
+        <div class="stage__body project-grid">
+          <article class="project-card">
+            <p class="project-card__role">Developer</p>
+            <h3>Tours and Travels Relational Database Management System</h3>
+            <ul class="project-card__list">
+                  <li>Designed normalized relational schemas and wrote SQL queries to manage customer profiles, hotel reservations, cancellations, and tour packages.</li>
+                  <li>Built a desktop application interface for users and travel agencies to track itineraries, package availability, and booking history.</li>
+                </ul>
+            <ul class="tag-row" aria-label="Technologies"><li class="tag">Java</li><li class="tag">Java Swing</li><li class="tag">SQL</li><li class="tag">MySQL</li></ul>
+            <a class="project-card__link" href="https://github.com/Mohsinnuddin/Tourism-Management-System" target="_blank" rel="noopener noreferrer">
+              View repository
+              <svg class="icon icon--sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7"/><path d="M9 7h8v8"/></svg>
+            </a>
+          </article>
 
-          const projectImg = item.querySelector("[data-project-img]").src;
-          const projectTitle = item.querySelector("[data-project-title]").textContent;
-          const projectCategory = item.querySelector("[data-project-category]").textContent;
+          <article class="project-card">
+            <p class="project-card__role">UI Developer</p>
+            <h3>Gym Trainer Application</h3>
+            <ul class="project-card__list">
+                  <li>Developed an Android application with Firebase Authentication and real-time NoSQL database synchronization.</li>
+                  <li>Structured low-latency data workflows for workout plans, user fitness metrics, and activity tracking.</li>
+                </ul>
+            <ul class="tag-row" aria-label="Technologies"><li class="tag">Java</li><li class="tag">Android Studio</li><li class="tag">Google Firebase</li></ul>
+            <a class="project-card__link" href="https://github.com/Mohsinnuddin/Gym-Trainer-App" target="_blank" rel="noopener noreferrer">
+              View repository
+              <svg class="icon icon--sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7"/><path d="M9 7h8v8"/></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
 
-          // Update modal content
-          projectModalImg.src = projectImg;
-          projectModalTitle.textContent = projectTitle;
+    <!-- ===================== SKILLS ===================== -->
+    <section class="stage" id="skills" data-stage>
+      <div class="wrap">
+        <header class="stage__head">
+          <span class="stage-node" aria-hidden="true"></span>
+          <p class="stage-tag">Stage 04 · Stack</p>
+          <h2 class="stage-title">Skills &amp; Tools</h2>
+        </header>
 
-          // Set project description based on category
-          let projectDescription = "";
-          let projectLink = "#";
+        <div class="stage__body skills__grid">
+          <div class="skill-bars">
+            <h3 class="skills__subhead">Core proficiency</h3>
+            <div class="skill-bar" data-value="85">
+              <div class="skill-bar__label"><span>SQL</span><span class="skill-bar__pct">85%</span></div>
+              <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+            </div>
+            <div class="skill-bar" data-value="80">
+              <div class="skill-bar__label"><span>Azure Data Factory</span><span class="skill-bar__pct">80%</span></div>
+              <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+            </div>
+            <div class="skill-bar" data-value="70">
+              <div class="skill-bar__label"><span>Looker Studio</span><span class="skill-bar__pct">70%</span></div>
+              <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+            </div>
+            <div class="skill-bar" data-value="50">
+              <div class="skill-bar__label"><span>Python</span><span class="skill-bar__pct">50%</span></div>
+              <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+            </div>
+            <div class="skill-bar" data-value="40">
+              <div class="skill-bar__label"><span>Java</span><span class="skill-bar__pct">40%</span></div>
+              <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+            </div>
+          </div>
 
-          switch (projectCategory) {
-            case "Looker Studio":
-              if (projectTitle === "Titanic Analysis") {
-                projectDescription = "A comprehensive analysis of the Titanic dataset using Looker Studio, showcasing passenger demographics, survival rates, and key insights.";
-                projectLink = "https://lookerstudio.google.com/u/0/reporting/4589ae81-32f8-4d3a-9c15-144962aa6bec/page/THlwE";
-              } else if (projectTitle === "Sales Analysis") {
-                projectDescription = "An interactive sales dashboard created in Looker Studio, providing insights into sales performance, trends, and key metrics.";
-                projectLink = "https://lookerstudio.google.com/u/1/reporting/e516c71c-ef44-4798-9706-0b65a634be3b/page/oIpyE";
-              }
-              break;
-            case "Alteryx":
-              if (projectTitle === "Cohort Analysis") {
-                projectDescription = "A detailed cohort analysis workflow in Alteryx, analyzing customer retention and behavior patterns over time.";
-                projectLink = "https://github.com/Mohsinnuddin/Cohort-Analysis";
-              } else if (projectTitle === "Replicate Tables") {
-                projectDescription = "An Alteryx workflow for efficiently replicating and transforming database tables with data validation.";
-                projectLink = "https://github.com/Mohsinnuddin/Replicate-Tables";
-              } else if (projectTitle === "Replicate Tables Macro") {
-                projectDescription = "A reusable Alteryx macro for automating table replication processes with customizable parameters.";
-                projectLink = "https://github.com/Mohsinnuddin/Replicate-Tables-Macro";
-              }
-              break;
-          }
+          <div class="tool-badges">
+            <h3 class="skills__subhead">Working with</h3>
+            <ul class="badge-grid">
+              <li class="badge">
+                <span class="badge__mark" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24"><ellipse cx="12" cy="5.5" rx="7" ry="2.6"/><path d="M5 5.5v6c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6v-6"/><path d="M5 11.5v6c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6v-6"/></svg>
+                </span>SQL
+              </li>
+              <li class="badge">
+                <span class="badge__mark" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24"><path d="M9 8 5 12l4 4"/><path d="M15 8l4 4-4 4"/></svg>
+                </span>Python
+              </li>
+              <li class="badge">
+                <span class="badge__mark" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24"><path d="M5 9h11v6a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4V9Z"/><path d="M16 10.5h1.5a2.5 2.5 0 0 1 0 5H16"/><path d="M8 4.5c-.6.6-.6 1.4 0 2M12 4.5c-.6.6-.6 1.4 0 2"/></svg>
+                </span>Java
+              </li>
+              <li class="badge">
+                <span class="badge__mark" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24"><path d="M10 4c-2 0-3 1-3 3v3c0 1-.6 2-2 2 1.4 0 2 1 2 2v3c0 2 1 3 3 3"/><path d="M14 4c2 0 3 1 3 3v3c0 1 .6 2 2 2-1.4 0-2 1-2 2v3c0 2-1 3-3 3"/></svg>
+                </span>C
+              </li>
+              <li class="badge">
+                <span class="badge__mark" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24"><path d="M14.5 6.5a3.5 3.5 0 0 0-4.6 4.6L4 17v3h3l5.9-5.9a3.5 3.5 0 0 0 4.6-4.6l-2.6 2.6-2-2 2.6-2.6Z"/></svg>
+                </span>DBT
+              </li>
+              <li class="badge">
+                <span class="badge__mark" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24"><path d="M4 20V11"/><path d="M11 20V4"/><path d="M18 20v-7"/><path d="M2.5 20h19"/></svg>
+                </span>Looker Studio
+              </li>
+              <li class="badge">
+                <span class="badge__mark" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="7.5"/><path d="M12 4.5V12l6 3.2"/></svg>
+                </span>Power&nbsp;BI
+              </li>
+              <li class="badge">
+                <span class="badge__mark" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24"><circle cx="5" cy="12" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="19" cy="18" r="2"/><path d="M7 12h4M11 12l4.5-4.5M11 12l4.5 4.5"/></svg>
+                </span>Azure Data Factory
+              </li>
+              <li class="badge">
+                <span class="badge__mark" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24"><path d="M12 3v18M4.5 7.5l15 9M19.5 7.5l-15 9"/><path d="M12 3l-1.6 2M12 3l1.6 2M12 21l-1.6-2M12 21l1.6-2M4.5 7.5l2.5.3M4.5 7.5l.7-2.4M19.5 7.5l-2.5.3M19.5 7.5l-.7-2.4M4.5 16.5l2.5-.3M4.5 16.5l.7 2.4M19.5 16.5l-2.5-.3M19.5 16.5l-.7 2.4"/></svg>
+                </span>Snowflake
+              </li>
+              <li class="badge">
+                <span class="badge__mark" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="M3 12l9 5 9-5"/><path d="M3 16l9 5 9-5"/></svg>
+                </span>Microsoft Fabric
+              </li>
+            </ul>
+          </div>
+        </div>
 
-          projectModalText.querySelector("p").textContent = projectDescription;
-          projectModalLink.href = projectLink;
+        <details class="stage__body skill-groups">
+          <summary>View full technical inventory</summary>
+          <div class="skill-groups__grid">
+            <section class="skill-group">
+              <h4>Databases &amp; Query Languages</h4>
+              <ul class="tag-row" aria-label="Technologies"><li class="tag">SQL</li><li class="tag">T-SQL</li><li class="tag">Snowflake SQL</li><li class="tag">Oracle SQL</li><li class="tag">MySQL</li><li class="tag">Azure SQL</li><li class="tag">Stored Procedures</li><li class="tag">CTEs</li><li class="tag">Query Optimization</li><li class="tag">SQL Performance Tuning</li><li class="tag">Query Profile Analysis</li></ul>
+            </section>
+            <section class="skill-group">
+              <h4>Cloud &amp; Data Platforms</h4>
+              <ul class="tag-row" aria-label="Technologies"><li class="tag">Snowflake</li><li class="tag">Microsoft Fabric</li><li class="tag">Azure Data Factory (ADF)</li><li class="tag">Azure Blob Storage</li><li class="tag">Azure SQL Database</li><li class="tag">MS SQL Server</li></ul>
+            </section>
+            <section class="skill-group">
+              <h4>ETL/ELT &amp; Integration</h4>
+              <ul class="tag-row" aria-label="Technologies"><li class="tag">ETL</li><li class="tag">ELT</li><li class="tag">Data Pipelines</li><li class="tag">Pipeline Orchestration</li><li class="tag">Event-Based Triggers</li><li class="tag">Scheduled Pipelines</li><li class="tag">REST API Ingestion</li><li class="tag">JSON Parsing &amp; Flattening</li><li class="tag">CSV &amp; Excel Automation</li><li class="tag">dbt</li></ul>
+            </section>
+            <section class="skill-group">
+              <h4>Data Modeling &amp; Warehousing</h4>
+              <ul class="tag-row" aria-label="Technologies"><li class="tag">Data Warehousing</li><li class="tag">Dimensional Modeling</li><li class="tag">Star Schema</li><li class="tag">Fact &amp; Dimension Tables</li><li class="tag">Staging Layers</li><li class="tag">Database Migration</li><li class="tag">Backup &amp; Restoration</li></ul>
+            </section>
+            <section class="skill-group">
+              <h4>Programming &amp; Automation</h4>
+              <ul class="tag-row" aria-label="Technologies"><li class="tag">Python</li><li class="tag">pyodbc</li><li class="tag">Selenium WebDriver</li><li class="tag">Dynamic DDL Generation</li><li class="tag">Java</li><li class="tag">C/C++</li></ul>
+            </section>
+            <section class="skill-group">
+              <h4>Data Quality &amp; Testing</h4>
+              <ul class="tag-row" aria-label="Technologies"><li class="tag">Data Validation</li><li class="tag">Data Reconciliation</li><li class="tag">Test Automation</li><li class="tag">End-to-End Functional Testing</li><li class="tag">Streamlit Application Testing</li></ul>
+            </section>
+            <section class="skill-group">
+              <h4>BI &amp; Tools</h4>
+              <ul class="tag-row" aria-label="Technologies"><li class="tag">Power BI</li><li class="tag">DAX</li><li class="tag">KPI Dashboards</li><li class="tag">Looker Studio</li><li class="tag">Excel</li><li class="tag">Git</li><li class="tag">GitHub</li><li class="tag">Linux</li></ul>
+            </section>
+          </div>
+        </details>
+      </div>
+    </section>
 
-          toggleProjectModal();
-        });
-      });
+    <!-- ===================== CREDENTIALS ===================== -->
+    <section class="stage" id="credentials" data-stage>
+      <div class="wrap">
+        <header class="stage__head">
+          <span class="stage-node" aria-hidden="true"></span>
+          <p class="stage-tag">Stage 05 · Credentials</p>
+          <h2 class="stage-title">Education &amp; Certifications</h2>
+        </header>
 
-      // Close project modal
-      projectModalCloseBtn.addEventListener("click", toggleProjectModal);
-      projectOverlay.addEventListener("click", toggleProjectModal);
-    });
-  </script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const skillItems = document.querySelectorAll('.skills-item');
-      skillItems.forEach(function (item) {
-        const value = item.getAttribute('data-value');
-        const fill = item.querySelector('.skill-progress-fill');
-        if (fill && value) {
-          fill.style.width = value + '%';
-        }
-      });
-    });
-    
-  </script>
+        <div class="stage__body credentials__grid">
+          <div class="credentials__col">
+            <h3 class="skills__subhead">Education</h3>
+            <ul class="cred-list">
+              <li>
+                <div class="cred-list__meta"><span>2020 — 2024</span></div>
+                <h4>B.Tech, Computer Science and Engineering</h4>
+                <p class="cred-list__org">CSI Wesley Institute of Technology and Sciences · Hyderabad</p>
+                <p>Relevant coursework: Database Management Systems, Data
+                  Structures and Algorithms, Software Engineering and Operating
+                  Systems.</p>
+              </li>
+              <li>
+                <div class="cred-list__meta"><span>2018 — 2020</span></div>
+                <h4>Sultan-Ul-Uloom Junior College</h4>
+                <p>Focused on foundational mathematics and the physical sciences,
+                  building problem-solving and analytical thinking skills.</p>
+              </li>
+              <li>
+                <div class="cred-list__meta"><span>2017 — 2018</span></div>
+                <h4>St. Joseph's High School</h4>
+                <p>10th grade with a strong foundation in Mathematics, Science
+                  and English.</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="credentials__col">
+            <h3 class="skills__subhead">Certifications</h3>
+            <ul class="cred-list">
+              <li>
+                <div class="cred-list__meta"><span>Microsoft · DP-700</span></div>
+                <h4>Microsoft Certified: Fabric Data Engineer Associate</h4>
+                <p>Role-based Microsoft certification validating skills in
+                  designing, building and monitoring data engineering
+                  solutions on Microsoft Fabric — ingestion and transformation
+                  across Lakehouse and Warehouse, and optimising production
+                  pipelines.</p>
+                <a class="cred-list__link" href="https://learn.microsoft.com/api/credentials/share/en-us/mohsinnuddin/64E8080F8AAC35F8?sharingId=95E449EA0CF8642B" target="_blank" rel="noopener noreferrer">Verify credential ↗</a>
+              </li>
+              <li>
+                <div class="cred-list__meta"><span>NASSCOM IT-ITeS Sector Skills Council · Sep 2024 — Dec 2024</span></div>
+                <h4>Data Analytics with Microsoft Power BI</h4>
+                <p>Data analysis, visualisation and reporting with Power BI,
+                  through hands-on projects and case studies.</p>
+                <a class="cred-list__link" href="https://inspiration-fun-7467.my.salesforce-sites.com/CDACcertificatePage2?id=a02Vy000008lWpXIAU" target="_blank" rel="noopener noreferrer">Verify certificate ↗</a>
+              </li>
+              <li>
+                <div class="cred-list__meta"><span>2024 · Udemy</span></div>
+                <h4>Java &amp; C++ Beginner Certification</h4>
+                <p>Beginner-level Java, C and C++ — syntax, control structures
+                  and problem-solving fundamentals.</p>
+                <a class="cred-list__link" href="https://drive.google.com/file/d/16uOo3EdHpglbMJV2RTKN_hhDA1bMk2g5/view?usp=drive_link" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="stage" id="contact" data-stage>
+      <div class="wrap">
+        <header class="stage__head">
+          <span class="stage-node" aria-hidden="true"></span>
+          <p class="stage-tag">Stage 06 · Sink</p>
+          <h2 class="stage-title">Contact</h2>
+        </header>
+
+        <div class="stage__body contact__grid">
+          <div class="contact__info">
+            <p class="contact__lede">Have a role, a project, or a pipeline that's
+              acting up? I'm happy to talk data.</p>
+            <ul class="contact__list">
+              <li>
+                <span class="contact__list-label">Email</span>
+                <span class="copy-row"><a href="mailto:mohsinnuddin@gmail.com">mohsinnuddin@gmail.com</a><button type="button" class="copy-btn" data-copy="mohsinnuddin@gmail.com">Copy</button></span>
+              </li>
+              <li>
+                <span class="contact__list-label">Location</span>
+                <span>Hyderabad, Telangana, India</span>
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" minlength="2" required autocomplete="name" />
+              <span class="field__error" data-error-for="name">Enter your name (min 2 characters).</span>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required autocomplete="email" />
+              <span class="field__error" data-error-for="email">Enter a valid email address.</span>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" minlength="10" required></textarea>
+              <span class="field__error" data-error-for="message">Message should be at least 10 characters.</span>
+            </div>
+            <button class="btn btn--primary" type="submit">Send message</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /.pipeline -->
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <p>© <span id="year"></span> Mohammed Mohsin Uddin. Built with care, one pipeline at a time.</p>
+  </div>
+</footer>
+
+<button class="fab-top" id="fabTop" type="button" aria-label="Back to top">
+  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5"/><path d="M6 11l6-6 6 6"/></svg>
+</button>
+
+<script src="assets/js/main.js"></script>
 </body>
-
 </html>
